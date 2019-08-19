@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "lvxiaolin\\autocode\\": "src/"
+            "lvxiaolin\\": "src/"
         },
         "files": [
             "src/common.php"
