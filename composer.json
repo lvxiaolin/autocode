@@ -1,0 +1,24 @@
+{
+    "name": "topthink/autocode",
+    "description": "It is convenient and quick to use ORM mode to program and automatically generate and update get and set methods.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "lvxiaolin",
+            "email": "1974764328@qq.com"
+        }
+    ],
+    "require": {},
+	"require-dev": {
+        "topthink/framework": "5.0.*"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "autoload": {
+        "psr-4": {
+            "topthink\\autocode\\": "src"
+        }
+    }
+}
