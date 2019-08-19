@@ -1,5 +1,5 @@
 {
-    "name": "topthink/autocode",
+    "name": "lvxiaolin/autocode",
     "description": "It is convenient and quick to use ORM mode to program and automatically generate and update get and set methods.",
     "type": "library",
     "license": "Apache-2.0",
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "topthink\\autocode\\": "src"
+            "lvxiaolin\\autocode\\": "src"
         }
     }
 }
