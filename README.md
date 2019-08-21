@@ -1,6 +1,6 @@
 # 欢迎使用 基于TP5的代码生成器 **autocode**
 我认为，你是一个代码艺术家，你追求代码的抽象和便捷的代码导航。
-在此之前，在一些WEB开发中，你需要是不是翻阅数据库建表语句来寻找和确定字段，否则就有可能写错字段。比如：
+在此之前，在一些WEB开发中，你需要时不时翻阅数据库建表语句来寻找和确定字段，否则就有可能写错字段。比如：
 ```php
 if($User->password == md5($this->getParam('password'))){
     //登录成功
@@ -27,10 +27,11 @@ if($User->pass == md5($this->getParam('password'))){
 >`php think autocode:update`
 
 到这里就已经完成了，如果你对以前写的 `$User->password` 想统一改成 `$User->getPassword()`
-> 3. 替换在此之前的属性写法为方法写法*(application代表应用目录)*
+> 3. 替换在此之前的属性写法为方法写法 *(application代表应用目录)*
 `php think autocode:replace -d application` 
 
 ## 遇到问题？
 感谢你的使用和反馈。
 Thank you for your use and look forward to your feedback. 
+
 *Author：LvXiaolin <1974764328@qq.com>* 
