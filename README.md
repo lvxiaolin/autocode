@@ -20,10 +20,11 @@ if($User->pass == md5($this->getParam('password'))){
 
 ## 如何安装呢？
 
-> 1. 安装 *autocode*
-`composer require lvxiaolin/autocode `
-> 2. 生成或更新 *get*、*set* 代码
-`php think autocode:update`
+> 1. 安装 *autocode*：
+>`composer require lvxiaolin/autocode `
+
+> 2. 生成或更新 *get*、*set* 代码：
+>`php think autocode:update`
 
 到这里就已经完成了，如果你对以前写的 `$User->password` 想统一改成 `$User->getPassword()`
 > 3. 替换在此之前的属性写法为方法写法*(application代表应用目录)*
